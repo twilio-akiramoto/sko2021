@@ -36,7 +36,7 @@ jobs:
         with:
           fromPhoneNumber: ${{ secrets.TWILIO_SMS_FROM }}
           toPhoneNumber: ${{ secrets.TWILIO_SMS_TO }}
-          message: '🚢 Deployment successful 🎉'
+          message: '🚢 Al!!Deployment successful!! 🎉'
         env:
           TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
           TWILIO_API_KEY: ${{ secrets.TWILIO_SMS_API_KEY }}
